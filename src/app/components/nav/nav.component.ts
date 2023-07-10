@@ -14,6 +14,6 @@ export class NavComponent implements OnInit{
 
 
   ngOnInit(): void {
-    this.router.navigate(['page/cadastro'])
+    this.router.navigate(['home'])
   }
 }
