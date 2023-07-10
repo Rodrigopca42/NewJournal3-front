@@ -8,45 +8,17 @@
 
 <div class="container">
 
-  <div class="card">
-    <h2>titulo</h2>
-    <p>Grupos de facebook</p>
-    <h2>notícias</h2>
-    <p>Lorem Ipsum é simplesmente uma simulação de texto da
-      indústria tipográfica...</p>
+  <div class="card" *ngFor="let todasNoticias of todasNoticias">
+
+      <h3><strong>{{todasNoticias.titulo}}</strong></h3>
+      <p>{{todasNoticias.noticia}}</p>
+      <p>{{todasNoticias.categorias}}</p>
+      <p>Postado em: {{todasNoticias.dataCriacao}}</p>
+
+      <button mat-button>ler mais...</button>
+
   </div>
 
-  <div class="card">
-    <h2>titulo</h2>
-    <p>Grupos de facebook</p>
-    <h2>notícias</h2>
-    <p>Lorem Ipsum é simplesmente uma simulação de texto da
-      indústria tipográfica...</p>
-  </div>
-
-  <div class="card">
-    <h2>titulo</h2>
-    <p>Grupos de facebook</p>
-    <h2>notícias</h2>
-    <p>Lorem Ipsum é simplesmente uma simulação de texto da
-      indústria tipográfica...</p>
-  </div>
-
-  <div class="card">
-    <h2>titulo</h2>
-    <p>Grupos de facebook</p>
-    <h2>notícias</h2>
-    <p>Lorem Ipsum é simplesmente uma simulação de texto da
-      indústria tipográfica...</p>
-  </div>
-  
-  <div class="card">
-    <h2>titulo</h2>
-    <p>Grupos de facebook</p>
-    <h2>notícias</h2>
-    <p>Lorem Ipsum é simplesmente uma simulação de texto da
-      indústria tipográfica...</p>
-  </div>
 
 </div>
 
