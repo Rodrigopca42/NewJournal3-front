@@ -1,0 +1,34 @@
+.login-container{
+  height: 100%;
+  display: flex;
+  background-image: url(src/assets/img/cidade-img.png);
+  background-size: cover;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  }
+
+  form{
+    width: 25rem;
+    margin: 0 auto 0 auto;
+    padding: 15px;
+    box-shadow:rgb(61, 59, 59) 1px 1px 1px ;
+  }
+
+  img{
+    margin: 2rem auto;
+  }
+
+  .form-group{
+    margin: 2rem auto;
+    border-radius: 5px;
+  }
+
+  h1{
+    width: 100%;
+    text-align: center;
+  }
+
+  button{
+    width: 100%;
+  }
