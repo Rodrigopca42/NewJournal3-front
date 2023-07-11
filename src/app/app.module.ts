@@ -20,6 +20,7 @@ import { AboutComponent } from './components/pages/about/about.component';
 import { NavComponent } from './components/nav/nav.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LoginComponent } from './components/login/login.component';
+import { ToastrModule } from 'ngx-toastr';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,12 @@ import { LoginComponent } from './components/login/login.component';
     ReactiveFormsModule,
     MatFormFieldModule,
     MatButtonModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    ToastrModule.forRoot({
+      timeOut: 4000,
+      closeButton:true,
+      progressBar: true
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
